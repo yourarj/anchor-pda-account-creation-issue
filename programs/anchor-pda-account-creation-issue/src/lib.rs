@@ -15,6 +15,16 @@ pub mod anchor_pda_account_creation_issue {
         ctx.accounts.data_holder.data_owner = data_owner;
         Ok(())
     }
+
+    pub fn initialize_arguments_flipped(
+        ctx: Context<Initialize>,
+        seed_number: u64,
+        data_owner: Pubkey,
+    ) -> Result<()> {
+        ctx.accounts.data_holder.seed_number = seed_number;
+        ctx.accounts.data_holder.data_owner = data_owner;
+        Ok(())
+    }
 }
 
 #[derive(Accounts)]

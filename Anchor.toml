@@ -1,7 +1,7 @@
 [features]
 seeds = false
 [programs.localnet]
-number_as_seed_for_pda_stub_only = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+anchor_pda_account_creation_issue = "4TVMT7N8nAJwZMuXH3MdfzNNQVG5YivBhRv9wbEBp9Ma"
 
 [registry]
 url = "https://anchor.projectserum.com"

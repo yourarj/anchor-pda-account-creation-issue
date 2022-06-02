@@ -1,12 +1,12 @@
 [package]
-name = "number-as-seed-for-pda-stub-only"
+name = "anchor-pda-account-creation-issue"
 version = "0.1.0"
 description = "Created with Anchor"
 edition = "2021"
 
 [lib]
 crate-type = ["cdylib", "lib"]
-name = "number_as_seed_for_pda_stub_only"
+name = "anchor_pda_account_creation_issue"
 
 [features]
 no-entrypoint = []
